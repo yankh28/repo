@@ -14,7 +14,7 @@ int main()
 		if (!quantity || n_length<=0) printf("INCORRECT INPUT\n");
 		else break;
 	}
-	string=(char*)malloc(100*sizeof(char));						//выделяем память 
+	string=(char*)malloc(n_length*sizeof(char));						//выделяем память 
 	if(!string){
 		printf("FATAL ERROR WITH MEMORY");						//если память не выделилась конец программы
 		return 0;
